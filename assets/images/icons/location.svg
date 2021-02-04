@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="19px" viewBox="0 0 13 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask@3x</title>
+    <defs>
+        <path d="M6.5,0.75 C3.11375,0.75 0.375,3.48875 0.375,6.875 C0.375,11.46875 6.5,18.25 6.5,18.25 C6.5,18.25 12.625,11.46875 12.625,6.875 C12.625,3.48875 9.88625,0.75 6.5,0.75 L6.5,0.75 Z M6.5,9.0625 C5.2925,9.0625 4.3125,8.0825 4.3125,6.875 C4.3125,5.6675 5.2925,4.6875 6.5,4.6875 C7.7075,4.6875 8.6875,5.6675 8.6875,6.875 C8.6875,8.0825 7.7075,9.0625 6.5,9.0625 L6.5,9.0625 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-154.000000, -1306.000000)">
+            <g id="Upcoming/Last-Event" transform="translate(0.000000, 1174.000000)">
+                <g id="Atoms-/-icons-/-System-/-Calendar" transform="translate(154.000000, 132.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#5D60A6" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="19px" viewBox="0 0 17 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Mask</title>
+    <defs>
+        <path d="M1.5,18.25 C1.01675084,18.25 0.625,17.8582492 0.625,17.375 L0.625,15.625 C0.625,12.9433801 4.85210809,11.25 8.5,11.25 C12.1478919,11.25 16.375,12.9433801 16.375,15.625 L16.375,17.375 C16.375,17.8582492 15.9832492,18.25 15.5,18.25 C15.0167508,18.25 1.98324916,18.25 1.5,18.25 Z M12.875,5.125 C12.875,7.54199916 10.9169992,9.5 8.5,9.5 C6.08300084,9.5 4.125,7.54199916 4.125,5.125 C4.125,2.70800084 6.08300084,0.75 8.5,0.75 C10.9169992,0.75 12.875,2.70800084 12.875,5.125 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-152.000000, -1357.000000)">
+            <g id="Upcoming/Last-Event" transform="translate(0.000000, 1174.000000)">
+                <g id="Atoms-/-icons-/-System-/-Calendar" transform="translate(152.000000, 183.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#5D60A6" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

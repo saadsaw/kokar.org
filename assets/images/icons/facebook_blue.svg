@@ -1,0 +1,13 @@
+<svg id="brand_facebook" data-name="brand / facebook" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="brand_facebook_Background_Mask_" data-name="brand / facebook (Background/Mask)" width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="brand_facebook-2" data-name="brand / facebook">
+    <rect id="brand_facebook_Background_Mask_2" data-name="brand / facebook (Background/Mask)" width="24" height="24" fill="none"/>
+    <g id="brand_facebook-3" data-name="brand / facebook" clip-path="url(#clip-path)">
+      <path id="brand_facebook-4" data-name="brand / facebook" d="M0,10a10.005,10.005,0,0,0,8.437,9.879V12.89H5.9V10h2.54V7.8A3.528,3.528,0,0,1,12.213,3.9a15.438,15.438,0,0,1,2.24.2V6.559H13.189a1.446,1.446,0,0,0-1.628,1.563V10h2.771l-.443,2.891H11.561v6.988A10,10,0,1,0,0,10Z" transform="translate(2.002 2.002)" fill="#77c7d9"/>
+    </g>
+  </g>
+</svg>
