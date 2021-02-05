@@ -28,6 +28,21 @@ $( document ).ready(function() {
 		}
 	});
 
+	// Donate Button Action
+	$( ".donate-btn-action" ).click(function() {
+		$( ".modal" ).fadeIn();
+	});
+
+	// The 'X' Button On The Modal
+	$( ".close" ).click(function() {
+		$( ".modal" ).fadeOut();
+	});
+
+	// Language Button Action
+	$( "#language-btn" ).click(function() {
+		console.log("Language Button Clicked");
+	});
+
 	// Open the events.html page and bring all events of the chosen SDG in the sdgs.html page
 	var $carousel = $('.carousel').flickity();
 	$carousel.on( 'select.flickity', function(event, index) {

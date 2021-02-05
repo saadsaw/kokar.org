@@ -11,6 +11,7 @@
 		
 		<!-- External Fonts / Stylesheets -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 		<link rel="stylesheet" href="assets/styles/flickity.css">
 		<link rel="stylesheet" href="assets/styles/kokar.css">
 	</head>
@@ -54,12 +55,33 @@
 					<a href="sdgs.html">SDGs</a>
 					<a href="join.html">JOIN US</a>
 					<a href="about.html">ABOUT US</a>
-					<a href="#" class="site-header__donate-btn">DONATE</a>
-					<a href="#" class="site-header__lang-btn">LANGUAGE</a>
+					<a href="#" class="site-header__donate-btn donate-btn-action">DONATE</a>
+					<a href="#" class="site-header__lang-btn" id="language-btn">LANGUAGE</a>
 				</nav>
 				<img id="hamburger-btn" src="assets/images/icons/hamburger_closed.svg" alt="">
 			</div>
 		</header>
+
+		<!-- The Donate Modal -->
+		<!-- This is hidden until the user clicks on the donate button -->
+		<div class="modal" id="donate-modal">
+			<!-- Modal Content -->
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<div class="donate-methods" style="margin-top: 50px">
+					<h2>Donate Now</h2>
+					<a href="#" style="background-color: tomato">
+						<i class="fab fa-viber"></i> Viber
+					</a>
+					<a href="#" style="background-color: teal">
+						<i class="fab fa-whatsapp"></i> WhatsApp
+					</a>
+					<a href="#" style="background-color: crimson">
+						<i class="fab fa-facebook-messenger"></i> Messenger
+					</a>
+				</div>
+			</div>
+		</div>
 		
 		<!-- Hero Section -->
 		<section class="hero">
@@ -67,7 +89,7 @@
 				<img src="https://via.placeholder.com/1440x616">
 				<div class="img__overlay">
 					<h1>Brief Overview - Two Lines</h1>
-					<a href="#" class="donate">DONATE</a>
+					<a href="#" class="donate donate-btn-action"">DONATE</a>
 					<a href="#" class="join">JOIN US</a>
 				</div>
 			</div>
@@ -118,8 +140,8 @@
 					<img src="assets/images/sdgs/E-WEB-Goal-13@2x.jpg" alt="">
 				</div>
 				<div class="event-buttons">
-					<a href="#">DONATE</a>
-					<a href="#">JOIN US</a>
+					<a href="javascript:void(0);" class="donate-btn-action">DONATE</a>
+					<a href="join.html">JOIN US</a>
 				</div>
 			</div>
 			<div class="event__photo">
@@ -171,13 +193,6 @@
 					</div>
 					
 				</div>
-				<!--
-				<div class="volunteer__card__nav">
-					<div class="v-dot"></div>
-					<div class="v-dot"></div>
-					<div class="v-dot"></div>
-					<div class="v-dot"></div>
-				</div>-->
 			</div>
 		</section>
 		
