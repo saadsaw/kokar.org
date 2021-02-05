@@ -1397,3 +1397,15 @@ a {
 	text-align: center;
 	font-size: 5rem;
 }
+
+@media screen and (max-width: 1024px) {
+	.modal-content {
+		width: 70%;
+	}
+	.modal-content a {
+		width: 80%;
+	}
+	.modal-content h2 {
+		font-size: 3.8rem;
+	}
+}
