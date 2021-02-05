@@ -48,8 +48,8 @@
 					<a href="#"><img src="assets/images/logos/kokar_header.png" alt="Kokar's Logo"></a>
 				</div>
 				<nav class="site-header__navigation">
-					<a href="home.html">HOME</a>
-					<a href="events.html" class="active">EVENTS</a>
+					<a href="home.html" class="active">HOME</a>
+					<a href="events.html">EVENTS</a>
 					<a href="volunteers.html">VOLUNTEERS</a>
 					<a href="sdgs.html">SDGs</a>
 					<a href="join.html">JOIN US</a>
@@ -61,8 +61,32 @@
 			</div>
 		</header>
 		
-		<!-- Event 1 -->
-		<section class="event sdg15 sdg13">
+		<!-- Hero Section -->
+		<section class="hero">
+			<div class="hero__img">
+				<img src="https://via.placeholder.com/1440x616">
+				<div class="img__overlay">
+					<h1>Brief Overview - Two Lines</h1>
+					<a href="#" class="donate">DONATE</a>
+					<a href="#" class="join">JOIN US</a>
+				</div>
+			</div>
+		</div>
+		
+		<section class="how">
+			<div class="container">
+				<img src="assets/images/logos/how_section.png" alt="">
+				<h2>How it work / What it dose</h2>
+				<p>
+					many lines of description show the how Kokar work and what it dose, The total number of persons suffering from 
+					severe food insecurity has been on the rise since 2015, and there are still millions of malnourished children. The 
+					economic slowdown and the disruption of food value chains caused by the pandemic are exacerbating hunger and 
+					food insecurity. In addition, the upsurge in desert locusts remains alarming in East Africa and Yemen. 
+				</p>
+			</div>
+		</section>
+		
+		<section class="event">
 			<div class="event__info">
 				<h3>Event Name</h3>
 				<div class="mobile-event-image">
@@ -103,100 +127,73 @@
 			</div>
 		</section>
 		
-		<!-- Event 2 -->
-		<section class="event sdg17" style="flex-direction: row-reverse">
-			<div class="event__info">
-				<h3>Event Name</h3>
-				<div class="mobile-event-image">
-					<img src="https://via.placeholder.com/600x500" alt="">
-					<div class="dots-mobile">
-						<div class="dot"></div>
-						<div class="dot"></div>
-						<div class="dot"></div>
-						<div class="dot"></div>
-					</div>
+		<section class="our-volunteers">
+			<h2>Our Volunteers</h2>
+			<div class="volunteers__cards">
+			<!--
+				<div class="card__buttons">
+					<div class="btn__prev"></div>
+					<div class="btn__next"></div>
 				</div>
-				<div class="info__details">
-					<div class="date">
-						<img src="assets/images/icons/calendar.svg" alt="">
-						<span>Upcoming Event in Friday, 22-01-2021</span>
+				-->
+				<div class="cards__list carousel js-flickity">
+					<!-- Single Card -->
+					<div class="single__card carousel-cell">
+						<div class="volunteer__info">
+							<div class="volunteer__image">
+								<img src="assets/images/icons/Avatar@2x.png">
+							</div>
+							<div class="volunteer__other">
+								<span class="volunteer__name">Sean Farmer</span>
+								<br>
+								<span class="volunteer__job">Job Title</span>
+							</div>
+						</div>
+						<p class="volunteer__bio">
+							Hawri Hashm Sayed born in 18th December 1986, living in Kirkuk-Iraq, a master’s degree in Applied mathematics and computer science in Cyprus.
+						</p>
 					</div>
-					<div class="location">
-						<img src="assets/images/icons/location.svg" alt="">
-						<span>Kirkuk, Somewhere</span>
+					<!-- Single Card -->
+					<div class="single__card carousel-cell">
+						<div class="volunteer__info">
+							<div class="volunteer__image">
+								<img src="assets/images/icons/Avatar@2x.png">
+							</div>
+							<div class="volunteer__other">
+								<span class="volunteer__name">Sean Farmer</span>
+								<br>
+								<span class="volunteer__job">Job Title</span>
+							</div>
+						</div>
+						<p class="volunteer__bio">
+							Hawri Hashm Sayed born in 18th December 1986, living in Kirkuk-Iraq, a master’s degree in Applied mathematics and computer science in Cyprus.
+						</p>
 					</div>
-					<div class="time">
-						<img src="assets/images/icons/calendar.svg" alt="">
-						<span>From 10:00 AM to 03:30 PM</span>
-					</div>
-					<div class="volunteers">
-						<img src="assets/images/icons/person.svg" alt="">
-						<span>Number of Volunteers: 45</span>
-					</div>
+					
 				</div>
-				<p class="event-description">
-					many lines of description for the event, The total number of persons suffering from severe food insecurity has been on the rise since 2015, and there are still millions of malnourished children. The economic slowdown and the disruption of food value.
-				</p>
-				<div class="event-sdgs">
-					<img src="assets/images/sdgs/E-WEB-Goal-17@2x.jpg" alt="">
-				</div>
-			</div>
-			<div class="event__photo">
-				<img src="https://via.placeholder.com/720x543">
-				<div class="dots-desktop">
-					<div class="dot"></div>
-					<div class="dot"></div>
-					<div class="dot"></div>
-					<div class="dot"></div>
-				</div>
+				<!--
+				<div class="volunteer__card__nav">
+					<div class="v-dot"></div>
+					<div class="v-dot"></div>
+					<div class="v-dot"></div>
+					<div class="v-dot"></div>
+				</div>-->
 			</div>
 		</section>
 		
-		<!-- Event 3 -->
-		<section class="event sdg11">
-			<div class="event__info">
-				<h3>Event Name</h3>
-				<div class="mobile-event-image">
-					<img src="https://via.placeholder.com/600x500" alt="">
-					<div class="dots-mobile">
-						<div class="dot"></div>
-						<div class="dot"></div>
-						<div class="dot"></div>
-						<div class="dot"></div>
+		<section class="partners">
+			<h2>Partners</h2>
+			<div class="container">
+				<div class="partner-logos">
+					<div class="partner">
+						<img src="assets/images/logos/partner_logo.png">
 					</div>
-				</div>
-				<div class="info__details">
-					<div class="date">
-						<img src="assets/images/icons/calendar.svg" alt="">
-						<span>Upcoming Event in Friday, 22-01-2021</span>
+					<div class="partner">
+						<img src="assets/images/logos/partner_logo.png">
 					</div>
-					<div class="location">
-						<img src="assets/images/icons/location.svg" alt="">
-						<span>Kirkuk, Somewhere</span>
+					<div class="partner">
+						<img src="assets/images/logos/partner_logo.png">
 					</div>
-					<div class="time">
-						<img src="assets/images/icons/calendar.svg" alt="">
-						<span>From 10:00 AM to 03:30 PM</span>
-					</div>
-					<div class="volunteers">
-						<img src="assets/images/icons/person.svg" alt="">
-						<span>Number of Volunteers: 45</span>
-					</div>
-				</div>
-				<p class="event-description">
-					many lines of description for the event, The total number of persons suffering from severe food insecurity has been on the rise since 2015, and there are still millions of malnourished children. The economic slowdown and the disruption of food value.
-				</p>
-				<div class="event-sdgs">
-					<img src="assets/images/sdgs/E-WEB-Goal-11@2x.jpg" alt="">
-				</div>
-			</div>
-			<div class="event__photo">
-				<img src="https://via.placeholder.com/720x543">
-				<div class="dots-desktop">
-					<div class="dot"></div>
-					<div class="dot"></div>
-					<div class="dot"></div>
-					<div class="dot"></div>
 				</div>
 			</div>
 		</section>
