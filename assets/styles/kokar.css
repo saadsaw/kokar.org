@@ -1283,6 +1283,8 @@ a {
 	.event-sdgs img {
 		margin: 0;
 		margin-left: 30px;
+		width: 68px;
+		height: 68px;
 	}
 	.event-buttons {
 		display: flex;
