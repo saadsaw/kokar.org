@@ -154,6 +154,11 @@ a {
 	height: 54px;
 }
 
+.site-header__branding img {
+	height: 34px;
+	width: 143px;
+}
+
 .site-header > .container {
 	position: relative;
 	display: flex;
@@ -262,6 +267,7 @@ a {
 
 .img__overlay .join {
 	font-weight: 500;
+	color: #fff;
 }
 
 @media screen and (min-width: 1135px) {
@@ -564,7 +570,11 @@ a {
 .flickity-page-dots .dot {
 	background: var(--kokar-theme);
 	opacity: 1;
-	margin: 0 16px;
+	margin: 0;
+}
+
+.flickity-page-dots .dot:not(:last-child) {
+	margin-right: 16px;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -700,7 +710,7 @@ a {
 	width: 100%;
 	margin-bottom: 16px;
 	font-size: 1.4rem;
-	padding: 10px;
+	padding: 12px 0 12px 12px;
 	box-sizing: border-box;
 	border: 2px solid #5D60A6;
 	border-radius: 0 6px 6px 6px;
@@ -708,10 +718,6 @@ a {
 
 .contact-us form .text textarea {
 	max-width: 100%;
-}
-
-.contact-us form .name-email {
-	
 }
 
 .contact-us form button {
@@ -915,6 +921,10 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.terms-section p {
+	color: var(--kokar-theme);
 }
 
 .terms-section a {
@@ -1268,7 +1278,8 @@ a {
 		padding: 0;
 	}
 	.contact-bar__msg {
-		display: block;
+		display: flex;
+		flex-direction: column-reverse;
 	}
 	.site-header {
 		height: 68px;
@@ -1416,7 +1427,7 @@ a {
 }
 
 .join-info img {
-	height: 197px;
+	height: 198px;
 }
 
 .join-info p {
@@ -1447,10 +1458,31 @@ a {
 .join-form__educationaldegree,
 .join-form__skills,
 .join-form__languages {
-	border: 2px solid #5D60A6;
+	border: 1px solid #5D60A6;
 	border-radius: 0 6px 6px 6px;
 	box-sizing: border-box;
-	padding: 12px 0 12px 8px;
+	padding: 12px 0 12px 12px;
+}
+
+.join-form input {
+	font-size: 1.4rem;
+}
+
+.join-form input[type="number"]::-webkit-outer-spin-button,
+.join-form input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.join-form input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.join-form input::placeholder,
+.join-form textarea::placeholder {
+	font-size: 1.4rem;
+	color: #3c3c43;
+	opacity: 0.60;
 }
 
 .join-form input[type="text"],
@@ -1469,7 +1501,7 @@ a {
 
 .join-form input[type="submit"] {
 	width: 263px;
-	background-color: #F2B077;
+	background-color: var(--kokar-theme);
 	border: 0;
 	cursor: pointer;
 }

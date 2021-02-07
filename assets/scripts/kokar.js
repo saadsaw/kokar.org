@@ -16,14 +16,19 @@ $( document ).ready(function() {
 			$( ".info__phone span" ).slideToggle( "slow" );
 		});
 	}
+
+	// Welcome To Kokar Text Slide Up
+	setTimeout(function() {
+		$( ".contact-bar__msg" ).slideUp();
+	}, 5000); // After 5 Seconds
 	
 	// Hamburger Menu Slide Down On Button Click On Mobile Screens
 	$( "#hamburger-btn" ).click(function() {
 		if ( $( ".site-header__navigation" ).first().is( ":hidden" ) ) {
-			$( ".site-header__navigation" ).slideDown( "slow" );
+			$( ".site-header__navigation" ).slideToggle( "slow" );
 			$( "#hamburger-btn" ).attr( "src", "assets/images/icons/hamburger_open.svg" );
 		} else {
-			$( ".site-header__navigation" ).hide();
+			$( ".site-header__navigation" ).slideToggle( "slow" );
 			$( "#hamburger-btn" ).attr( "src", "assets/images/icons/hamburger_closed.svg" );
 		}
 	});
