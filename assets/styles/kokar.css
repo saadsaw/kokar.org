@@ -413,13 +413,19 @@ a {
 }
 
 .event-buttons a:first-child {
-	background-color: var(--kokar-theme);
+	background-color: #D9756C;
 	margin-bottom: 16px;
+	font-weight: 500;
 	color: #fff;
 }
 
 .event-buttons a:last-child {
 	background-color: #F2B077;
+	font-weight: 500;
+}
+
+.event-buttons a:hover {
+	opacity: 0.60;
 }
 
 .our-volunteers {
