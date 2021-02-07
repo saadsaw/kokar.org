@@ -144,6 +144,9 @@ a {
 	margin-left: 15px;
 }
 
+.contact-bar__social img:hover {
+	opacity: 0.60;
+}
 
 .site-header {
 	background-color: #fff; /* TODO: Remove In Production */
