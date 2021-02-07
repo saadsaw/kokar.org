@@ -385,6 +385,10 @@ a {
 	font-size: 1.6rem;
 }
 
+.site-header__navigation a:hover {
+	opacity: 0.60;
+}
+
 .event-sdgs img {
 	height: 50px;
 	width: 50px;
