@@ -79,6 +79,8 @@ a {
 	font-size: 1.4rem;
 	text-align: center;
 	padding-bottom: 10px;
+	color: #3c3c43;
+	opacity: 0.60;
 }
 
 @media screen and (min-width: 1135px) {
