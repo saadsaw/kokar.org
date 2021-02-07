@@ -296,6 +296,7 @@ a {
 	margin-right: auto;
 }
 
+
 .how h2 {
 	font-size: 3.8rem;
 	font-weight: 700;
@@ -314,6 +315,22 @@ a {
 	margin-bottom: 0;
 }
 
+@media screen and (min-width: 1135px) {
+	.how {
+		min-height: 460px;
+	}
+	.how img {
+		padding-top: 100px;
+	}
+	.how h2 {
+		margin-top: 10px;
+		margin-bottom: 23px;
+	}
+	.how p {
+		padding-bottom: 0;
+		margin-top: 0;
+	}
+}
 
 .event {
 	background-color: #fff;
@@ -1555,3 +1572,6 @@ a {
 	}
 }
 
+@media screen and (max-width: 1135px) {
+
+}
