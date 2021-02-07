@@ -726,10 +726,15 @@ a {
 	font-weight: 500;
 }
 
+.contact-us form button:hover {
+	opacity: 0.60;
+}
+
 .contact-us__info {
 	margin-top: 60px;
 	font-size: 1.6rem;
 	margin-bottom: 60px;
+	color: #5D60A6;
 }
 
 .contact-us__info div {
