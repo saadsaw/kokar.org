@@ -378,7 +378,7 @@ a {
 
 .event-sdgs {
 	margin-top: 24px;
-	margin-bottom: 48px;
+	margin-bottom: 30px;
 }
 
 .event-description {
@@ -1285,6 +1285,7 @@ a {
 	.event-sdgs {
 		display: flex;
 		justify-content: flex-end;
+		margin-top: 20px;
 	}
 	.event-sdgs img {
 		margin: 0;
@@ -1302,6 +1303,7 @@ a {
 	}
 	.event-description {
 		max-width: 457px;
+		margin-bottom: 0;
 	}
 	.event-buttons a {
 		margin: 0;
