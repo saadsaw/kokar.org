@@ -841,6 +841,15 @@ a {
 	border: 1px solid var(--kokar-theme);
 	border-radius: 0 10px 10px 10px;
 	cursor: pointer;
+	height: 302px;
+	position: relative;
+	bottom: 0;
+	transition: 0.2s;
+}
+
+.members__single:hover {
+	bottom: 10px;
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
 }
 
 .members__single img {
@@ -1504,6 +1513,7 @@ a {
 	background-color: var(--kokar-theme);
 	border: 0;
 	cursor: pointer;
+	color: #fff;
 }
 
 @media screen and (max-width: 768px) {
@@ -1556,6 +1566,7 @@ a {
 	padding: 20px;
 	border: 1px solid #888;
 	width: 40%;
+	border-radius: 0 8px 8px 8px;
 }
 
 .close {
