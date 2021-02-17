@@ -134,10 +134,14 @@ $( document ).ready(function() {
 
 			if (numberOfEvents == 0) {
 				$('.no-event').show();
+				$('.sdg-events').hide();
+				$('.sdg-events').empty();
 			} else {
 				$('.no-event').hide();
-				// This means the selected card has events under it.
-				// I am supposed to go to the events.html page and get all section elements which have a class of .sdg + (index + 1) -> sdg1 to sdg17 based on what is selected
+
+				$('.sdg-events').append(events[0]);
+				$('.sdg-events').show();
+				console.log(events[0]);
 			}
 		});
 	});

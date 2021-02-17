@@ -3,6 +3,9 @@
 	--kokar-theme: #77c7d9;
 }
 
+.sdg__information__mobile {
+	display: none;
+}
 
 html,
 body {
